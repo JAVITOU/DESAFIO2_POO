@@ -90,7 +90,7 @@ public class ListaFrame extends JFrame {
 
         add(mainPanel);
 
-        // ESTA LÍNEA ES CRÍTICA - DEBE ESTAR AL FINAL
+
         setVisible(true);
 
         // Actualizar estadísticas después de cargar datos
