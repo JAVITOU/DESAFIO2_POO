@@ -172,7 +172,7 @@ public class EstudianteFrame extends JFrame {
             }
         });
 
-        // ESTA LÍNEA ES CRÍTICA - DEBE ESTAR AL FINAL
+       
         setVisible(true);
     }
 
