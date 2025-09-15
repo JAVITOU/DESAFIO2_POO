@@ -72,7 +72,6 @@ public class MainFrame extends JFrame {
         setVisible(true);
     }
 
-    // MÉTODOS CORREGIDOS - SIN dispose()
     private void abrirGestionEstudiantes() {
         System.out.println("Abriendo gestión de estudiantes...");
         new EstudianteFrame();
