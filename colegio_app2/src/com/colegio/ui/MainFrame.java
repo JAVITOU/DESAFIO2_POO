@@ -63,7 +63,7 @@ public class MainFrame extends JFrame {
 
         add(mainPanel, BorderLayout.CENTER);
 
-        // LISTENERS CORREGIDOS - SIN dispose()
+     
         btnGestionEstudiantes.addActionListener(e -> abrirGestionEstudiantes());
         btnGestionNotas.addActionListener(e -> abrirGestionNotas());
         btnListarEstudiantes.addActionListener(e -> abrirListaEstudiantes());
